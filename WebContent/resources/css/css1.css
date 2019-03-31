@@ -1,0 +1,162 @@
+@charset "UTF-8";
+#box{
+	margin: 0 auto;
+	
+	width:1000px;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+li{
+	display:inline;
+	float:left;
+}
+.topbutton:link,.topbutton:visited{
+	display:block;
+	width:116px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#bebebe;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.topbutton:hover,.topbutton:active{
+	background-color:#cc0000;
+}
+#link{
+	background-color:black;
+	color:white;
+}
+.indexdiv1{
+	margin:10px;
+	width:625px;
+	height:300px;
+	background-color:white;
+	float:left;
+}
+.indexdiv2{
+	margin:10px;
+	width:325px;
+	height:300px;
+	background-color:white;
+	float:left;
+}
+
+#bottom{
+  background-color: #333;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  padding: 5px;
+  border: 1px solid red;
+  width:980px;
+  clear:both;
+}
+p{
+	font-family: Georgia;
+}
+#indextitle{
+	font-weight:900;
+	font-size:1.2em;
+	padding:1px 5px 1px 20px;
+}
+hr{
+	height:5px;border:none;border-top:5px groove skyblue;
+}
+#indexintroduction{
+	padding:5px;
+	text-indent: 2em;
+	line-height: 150%;
+}
+#phonetable{
+	padding:10px;
+	
+}
+.indextable{
+	padding:20px;
+	
+}
+#a1{
+	text-decoration: none;
+	color:grey;
+}
+#a1:hover,#a:visited{
+	text-decoration:underline;
+}
+.article{
+	background-color:white;
+	padding:10px;
+	width:753px;
+	height:600px;
+	text-indent: 2em;
+	float:left;
+}
+.left{
+	float:left;
+	width:200px;
+	height:600px;
+	background-color:white;
+	padding:10px;
+}
+.left ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	
+}
+	
+.left a:link,.left a:visited{
+	display:block;
+	font-weight:bold;
+	color:#400040;
+	background-color:#ffffff;
+	width:200px;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+
+}
+.left a:hover,.left a:active{
+	background-color:#ff8080;
+}
+div.img{
+  margin:3px;
+  border:1px solid #bebebe;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:block;
+  margin:5px;
+  border:1px solid #bebebe;
+  }
+div.img a:hover img
+  {
+  border:1px solid #333333;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:150px;
+  font-size:12px;
+  margin:10px 5px 10px 5px;
+  }
+.little{
+	font-size:0.9em;
+}
+#littlelink{
+	background-color:grey;
+	color:white;
+}
+
+
+
